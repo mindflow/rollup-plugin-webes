@@ -1,0 +1,19 @@
+{
+  "name": "rollup-plugin-webes",
+  "version": "1.0.0",
+  "description": "Web es plugin",
+  "main": "dist/cjs/rollup-plugin-webes.js",
+  "module": "dist/jsm/rollup-plugin-webes.js",
+  "scripts": {
+    "build": "node ./node_modules/rollup/dist/bin/rollup -c"
+  },
+  "author": "Toby Nilsen",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/pluginutils": "^3.1.0",
+    "magic-string": "^0.25.7"
+  },
+  "devDependencies": {
+    "rollup": "^2.35.1"
+  }
+}
