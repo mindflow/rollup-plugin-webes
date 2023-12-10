@@ -73,7 +73,7 @@ function webes(options = {}) {
   };
 
   function executeReplacement(code, id) {
-    const magicString = new MagicString__default['default'](code);
+    const magicString = new MagicString__default["default"](code);
     if (!codeHasReplacements(code, id, magicString)) {
       return null;
     }
